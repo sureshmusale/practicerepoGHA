@@ -5,6 +5,7 @@ on:
       - opened
     branches:
         - 'master'
+        - 'release/OMS-IR10'
 
 
 jobs:
