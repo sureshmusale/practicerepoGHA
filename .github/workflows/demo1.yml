@@ -5,6 +5,14 @@ on:
       - opened
     branches:
         - 'master'
+        - 'release/OMS-IR10'
+  push:
+    branches:
+      - 'release/**'
+    paths:
+      - '.github/workflows'
+    paths-ignore:
+      - '.github/workflows'
 
 
 jobs:
