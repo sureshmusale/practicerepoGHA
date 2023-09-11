@@ -9,6 +9,10 @@ on:
   push:
     branches:
       - 'release/**'
+    paths:
+      - '.github/workflows'
+    paths-ignore:
+      - '.github/workflows'
 
 
 jobs:
