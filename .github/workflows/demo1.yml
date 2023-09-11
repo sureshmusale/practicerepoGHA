@@ -6,6 +6,9 @@ on:
     branches:
         - 'master'
         - 'release/OMS-IR10'
+  push:
+    branches:
+      - 'release/**'
 
 
 jobs:
